@@ -13,6 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun= false,
 		plugin = { "pretty", "html:target/cucumber-reports/reports"},
 		monochrome = true
+		
 		)
 
 

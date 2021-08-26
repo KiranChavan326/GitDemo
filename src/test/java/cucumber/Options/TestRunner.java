@@ -12,8 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		tags = "@activity1_1",
 		dryRun= false,
 		plugin = { "pretty", "html:target/cucumber-reports/reports"},
-		monochrome = true
-		
+		monochrome = true		
 		)
 
 
